@@ -139,6 +139,7 @@ int main()
 
     // Saída de dados
     // comentario novo
+    //comentario daniel
     printf("%s\n", nome);
     printf("%s\n", endereco);
     printf("%d\n", idade);
