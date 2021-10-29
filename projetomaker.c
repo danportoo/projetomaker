@@ -108,7 +108,7 @@ int main()
         printf("\nInfelizmente voce nao tem direito a desconto\n");
     }
 
-    if (rendapercapita > 2000) // verificando se quer doar ou nao
+     if (rendapercapita > 2000) // verificando se quer doar ou nao
     {
         printf("\nVoce deseja doar algum valor para ajudar no custeio do curso das pessoas mais pobres?\n"
                "Caso deseje doar voce vai estar concorrendo a um premio\n"
@@ -117,8 +117,8 @@ int main()
                "Doando acima de R$80 ganha 3 ticket\n"
                "Deseja doar ?\n1-Sim\t2-Nao\n"
                "Resposta .: ");
-        scanf("%d", &doacao);
-        while (doacao != 1 && doacao != 2) // verificando se o num digitado foi o correto 1 ou 2 no caso
+        scanf("%d", &doacaoresp);
+        while (doacaoresp != 1 && doacaoresp != 2) // verificando se o num digitado foi o correto 1 ou 2 no caso
         {
             printf("Digite uma opcao valida '1' para Sim e '2' para Nao\n");
             printf("\nVoce deseja doar algum valor para ajudar no custeio do curso das pessoas mais pobres?\n"
