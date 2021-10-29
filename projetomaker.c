@@ -138,6 +138,7 @@ int main()
     }
 
     // Saída de dados
+    //fim
 
     printf("%s\n", nome);
     printf("%s\n", endereco);
