@@ -5,11 +5,18 @@
 #include <string.h>
 
 
-void curso1(opcao);     //curso 1
-void curso2(opcao);    //curso 2 
-void curso3(opcao);   //curso 3 
 
-int opcao;
+void curso1(opcao);   //curso 1
+void curso2(opcao);   //curso 2 
+void curso3(opcao);   //curso 3 
+void curso4(opcao);   //curso 4 
+void curso5(opcao);   //curso 5 
+void curso6(opcao);   //curso 6
+void curso7(opcao);   //curso 7 
+void curso8(opcao);   //curso 8 
+void telaLogin(opcao); //login admin
+
+int opcao, login, login1, senha,senha1, login_efetuado=0;
 
 int main()
 {
@@ -31,8 +38,14 @@ int main()
         printf("1. Curso Back-End\n");
         printf("2. Curso DevOps\n");
         printf("3. Curso Front-End\n");
+        printf("4. Curso Mobile\n");
+        printf("5. Curso Data Science\n");
+        printf("6. Curso UX & Desing \n");
+        printf("7. Curso inovacao e Gestao\n");
+        printf("8. Curso Seguranca da Informacao\n");
+        printf("9. admin\n");
         printf("0. Sair\n");
-
+		
         scanf("%d", &opcao);
         system("cls");
 
@@ -56,7 +69,36 @@ int main()
             	system("cls");
                 curso2();
                 break;
+			
+	    case 4:
+                system("cls");
+                curso4();
+                break;
                 
+            case 5:
+                system("cls");
+                curso5();
+                break;    
+
+            case 6:
+                system("cls");
+                curso6();
+                break;
+
+            case 7:
+                system("cls");
+                curso7();
+                break;
+
+            case 8:
+                system("cls");
+                curso8();
+                break;
+
+            case 9:
+                system("cls");
+                telaLogin();
+                break;                
                 
            
             default:
