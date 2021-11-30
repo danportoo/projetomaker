@@ -1,0 +1,197 @@
+body {
+    font: 20px cursive, sans-serif;
+    line-height: 1.8;
+    color: #555555;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;  
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.navbar ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+    text-decoration: none;
+}
+
+.navbar li a{   
+    text-decoration: none;
+    color: #555555;
+    margin: 5px;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin: left 10px;
+    text-decoration: none;
+}
+
+.background1{
+    background-color:#04345C ;
+    padding: 100px;
+    margin-bottom: -25px;
+}
+
+.background2{
+    background-color:#6BD4CD ;
+}
+
+.img-logo{
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 36%;
+}
+
+.img-logo2{
+    position: relative;
+    left: 43%;
+}
+
+
+.footer-bar ul{
+    text-align: center;
+}
+
+.footer-bar li{
+    display: inline-block;
+    list-style: none;
+    margin: left 10px;
+}
+
+.logo-footer{
+    width: 35px;    
+}
+
+.logo-footer2{
+    width: 35px;
+}    
+
+.footer-bar p{
+    color: #555555;
+}
+
+.footer-bar li{
+    display: inline-block;
+    list-style: none;
+    margin: left 10px;
+}
+
+.footer-bar a{
+    text-decoration: none;
+}
+
+/*css da página de cursos*/
+
+.content-section h2{
+    padding: 10px;
+    margin: 100px;
+    border-bottom: solid 3px rgb(99, 99, 99);
+    font-size: 20px;
+}
+
+.card{
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+
+.card p{
+    color: #555555;
+}
+
+.content-section{
+    background-color: #04345C;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+/* css contato*/
+
+fieldset{
+    border: 0;
+}
+
+form{
+    
+    font-family: cursive;
+    font-size: 1em;
+    color:#555555;
+    margin-top: 2%;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:#1e90ff;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+
+}
+
+.campo input[type="text"], .campo input[type="email"],.campo select, .campo  textarea{
+    padding: 0.2em;
+    border: 1px solid #00bfff;
+    box-shadow: 2px 2px  2px rgba(0,0,0.0.2);
+    display: block;
+
+}
+
+
+.botao{
+    font-size: 1.2em;
+    background: #191970;
+    border: 0;
+    margin-bottom: 10em;
+    color:#ffffff;
+    padding-right: 0.2em 0.6;
+    box-shadow: 2px 2px 2px rgba(0,0,0.0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0.0.5);
+    top: 90%;
+    left: 50%;
+    margin: 50px;
+    margin: right 100px; ;
+    transform: translate(-50%, -50%);
+}
+.botao:hover{
+    background:#483d8b;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0.0.2);
+    text-shadow: none;
+}
+#check{
+    display: inline-block;
+}
